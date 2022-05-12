@@ -92,10 +92,10 @@ var armCases = []testing.InternalTest{
 }
 
 var testCases = []testing.InternalTest{
-	testing.InternalTest{
-		Name: "A1",
-		F:    ossm.TestSMCPInstall,
-	},
+	//testing.InternalTest{
+	//	Name: "A1",
+	//	F:    ossm.TestSMCPInstall,
+	//},
 	testing.InternalTest{
 		Name: "A2",
 		F:    ossm.TestBookinfo,
@@ -206,14 +206,14 @@ var testCases = []testing.InternalTest{
 		Name: "T27",
 		F:    ossm.TestSSL,
 	},
-	//testing.InternalTest{
-	//	Name: "T28",
-	//	F:    ossm.TestRateLimiting,
-	//},
-	//testing.InternalTest{
-	//	Name: "T29",
-	//	F:    ossm.TestSMCPAnnotations,
-	//},
+	// testing.InternalTest{
+	// 	Name: "T28",
+	// 	F:    ossm.TestRateLimiting,
+	// },
+	// testing.InternalTest{
+	// 	Name: "T29",
+	// 	F:    ossm.TestSMCPAnnotations,
+	// },
 	testing.InternalTest{
 		Name: "T30",
 		F:    ossm.TestMustGather,
